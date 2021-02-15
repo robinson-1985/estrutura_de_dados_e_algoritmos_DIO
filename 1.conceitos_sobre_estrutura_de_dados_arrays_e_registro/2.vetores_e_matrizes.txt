@@ -11,6 +11,11 @@ tipo.
 O vetor é uma estrutura de dados indexada, que pode armazenar uma determinada quantidade 
 de valores do mesmo tipo. 
 
+Vamos ver abaixo alguns exemplos de algoritmo escrito em portugol. Utilizamos para isto 
+o site do link acima:
+
+Exemplo 1: 
+
 programa {
 	funcao inicio() {
 		inteiro numeros[] = {39, 45, 54, 55}
@@ -77,6 +82,40 @@ programa
 		{
 			// O caracter especial \t serve para escrever uma tabulação
 			escreva (nome[posicao], "\t\t", altura [posicao], "\n")
+		}
+	}
+}
+
+                        MATRIZ
+
+Matriz ou array multi-dimensional é um vetor de vetores.
+
+Uma matriz é um vetor que possui duas ou mais dimensões.
+
+Exemplo 1:
+
+programa
+{
+	inclua biblioteca Util --> u
+	
+	funcao inicio()
+	{
+		// Define as dimensões (linhas e colunas) da matriz
+		const inteiro TAMANHO = 5
+
+		// Cria a matriz
+		inteiro matriz[TAMANHO][TAMANHO] 
+
+		para (inteiro linha = 0; linha < TAMANHO; linha++)
+		{
+			para (inteiro coluna = 0; coluna < TAMANHO; coluna++)
+			{
+				matriz[linha][coluna] = u.sorteia(1, 9) // Atribui um valor aleatório à posição da matriz
+				
+				escreva("[", matriz[linha][coluna], "]") // Exibe o valor contido na posição da matriz
+			}
+			
+			escreva ("\n")
 		}
 	}
 }

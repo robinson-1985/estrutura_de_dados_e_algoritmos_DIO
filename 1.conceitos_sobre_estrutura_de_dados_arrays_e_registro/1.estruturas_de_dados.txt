@@ -9,7 +9,7 @@ grande quantidade de dados, como aplicações em bancos de dados ou serviços de
 
                         ALGORITMO
 
-Um algoritmo é um conjunto de instruções estruturadas e ordanadas, seu objetivo é
+Um algoritmo é um conjunto de instruções estruturadas e ordenadas, seu objetivo é
 realizar uma tarefa ou operação específica. 
 
 Os algoritmos são utilizados para manipular dados nas estruturas de várias formas, 
