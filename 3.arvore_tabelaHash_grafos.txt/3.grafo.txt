@@ -1,0 +1,12 @@
+                        GRAFO
+
+Grafos são estruturas que permitem programar a relação entre objetos. 
+
+Os objetos são vértices ou "nós" do grafo.
+
+Os relacionamento são arestas: é o ponto de ligação de um objeto com o outro;
+
+Conseguimos com os grafos criar estruturas que não são lineares, como em filas,
+listas ou vetores. Podemos criar qualquer posição podendo estar na frente, atrás, 
+no lado, vertical, horizontal, diagonal, etc. São estruturas especiais e mais 
+complexas utilizadas em IA e jogos.  
